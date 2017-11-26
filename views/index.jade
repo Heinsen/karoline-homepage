@@ -1,7 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-
-  p.journlaist.blink_me Stay journalist become journalism
+	div(class='carousel slide col-md-10' id='carousel' data-ride='carousel')
+		ol(class='carousel-indicators')
+			li(data-target="#carousel" data-slide-to="0" class="active")
+			li(data-target="#carousel" data-slide-to="1")
+		.carousel-inner
+			.item.active
+				img(src='/images/carousel-img-1.jpg' alt='First slide')
+			.item
+				img(src='/images/carousel-img-2.jpg' alt='Second slide')
+		a(class='left carousel-contol' href='#carousel' data-slide='prev')
+			span(class='glyphicon glyphicon-chevron-left')
+		a(class='right carousel-contol' href='#carousel' data-slide='next')
+			span(class='glyphicon glyphicon-chevron-right')
