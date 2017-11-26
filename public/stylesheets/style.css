@@ -5,7 +5,7 @@
   padding: 20px;
   width: 100%;
 }
-.navbar {
+.navbar-fixed-top {
   background-color: #fff;
 }
 .nav {
@@ -17,6 +17,33 @@
 }
 .navbar-item-active {
   color: #039;
+}
+.navbar-fixed-bottom {
+  min-height: 170px;
+  padding: 30px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+}
+.footer-img {
+  padding-top: 20px;
+  width: 100%;
+}
+.footer-newsletter {
+  padding-top: 20px;
+}
+.footer-input {
+  color: #000;
+}
+.footer-social {
+  padding-top: 15px;
+}
+.footer-social-icon {
+  width: 100%;
+}
+.footer-button {
+  color: #000;
+  background-color: #fff;
 }
 .black-color {
   color: #000;
