@@ -1,28 +1,19 @@
-.navbar.navbar-default.navbar-fixed-top
-  .container
-    .navbar-header.col-md-2
-      a(href='#')
-        img(class='navbar-logo', alt='Brand', src='/images/icon-nav-bar.jpg')
-    div(id='navbar', class=['navbar-collapse','collapse','col-md-10'])
-       ul.nav.navbar-nav
-         li
-           a(href='#')
-            .navbar-item OM CREATIVE EUROPE
-         li
-           a(href='#')
-            .navbar-item PULJER
-         li
-           a(href='#')
-            .navbar-item TILSKUDSMODTAGERE
-         li
-           a(href='#')
-            .navbar-item ARRANGEMENTER
-         li
-           a(href='#')
-            .navbar-item FAQ
-         li
-           a(href='#')
-            .navbar-item NYHEDER
-         li
-           a(href='#')
-            .navbar-item KONTAKT
+.navbar.navbar-expand-lg.fixed-top
+  a.navbar-brand(href='#')
+    img(class='navbar-logo' alt='Brand' src='/images/icon-nav-bar.jpg')
+  ul.navbar-nav
+    li.nav-item.active
+      a(class='nav-link' href='#') OM CREATIVE EUROPE
+        span.sr-only (current)
+    li.nav-item
+      a(class='nav-link' href='/puljer') PULJER
+    li.nav-item
+      a(class='nav-link' href='/beneficiaries') TILSKUDSMODTAGERE
+    li.nav-item
+      a(class='nav-link' href='/events') ARRANGEMENTER
+    li.nav-item
+      a(class='nav-link' href='/faq') FAQ
+    li.nav-item
+      a(class='nav-link' href='/news') NYHEDER
+    li.nav-item
+      a(class='nav-link' href='/contact') KONTAKT
