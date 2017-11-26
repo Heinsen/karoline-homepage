@@ -2,6 +2,16 @@ doctype html
 html
   head
     title= title
+    link(rel='shortcut icon', href='../images/icon.jpg')
     link(rel='stylesheet', href='/stylesheets/style.css')
+  
   body
-    block content
+    include partials/header
+
+    .container
+        block content
+
+    include partials/footer
+
+    script(src='../jquery/jquery.min.js')
+    script(src='../bootstrap/js/bootstrap.min.js')
