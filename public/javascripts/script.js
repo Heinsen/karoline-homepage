@@ -1,11 +1,10 @@
-$(".navbar-item").on('click', function(e){
-   e.preventDefault();
-   $(this).addClass('navbar-item-active')
+$(".nav-item").on("click", function(){
+   $(".active").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
 });
 
 
 $(document).ready(function() {
-	// get current URL path and assign 'active' class
-	//var pathname = window.location.pathname;
-	//$('.nav > li > a[href="'+pathname+'"]').parent().addClass('active');
-})
+  $('a.active').removeClass('active');
+  $('a[href="' + location.pathname + '"]').closest('a').addClass('active'); 
+});

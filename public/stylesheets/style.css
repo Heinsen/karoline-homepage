@@ -4,17 +4,17 @@
 .navbar-logo {
   width: 130px;
 }
-.navbar-fixed-top {
+.navbar {
   background-color: #fff;
 }
 .nav {
   padding: 10px;
   min-height: 60px;
 }
-.navbar-item {
+.nav-item {
   color: #000;
 }
-.navbar-item-active {
+.nav-item.active {
   color: #039;
 }
 .navbar-fixed-bottom {
