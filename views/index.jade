@@ -1,7 +1,7 @@
 extends layout
 
 block content
-	div(id='carousel' class='carousel slide' data-ride='carousel')
+	div(id='carousel' class='carousel slide ' data-ride='carousel')
 		ol(class='carousel-indicators')
 			li(data-target='carousel' data-slide-to='0' class='active')
 			li(data-target='carousel' data-slide-to='1')
@@ -9,17 +9,17 @@ block content
 		.carousel-inner
 			.carousel-item.active
 				img(src='/images/carousel-img-1.jpg' class="d-block w-100" alt='First slide')
-				.carousel-caption
+				.carousel-caption.header-carousel-caption
 					h3 Title
 					p Subtitle
 			.carousel-item
 				img(src='/images/carousel-img-2.jpg' class="d-block w-100" alt='Second slide')
-				.carousel-caption
+				.carousel-caption.header-carousel-caption
 					h3 Title
 					p Subtitle
 			.carousel-item
 				img(src='/images/carousel-img-3.jpg' class="d-block w-100" alt='Third')
-				.carousel-caption
+				.carousel-caption.header-carousel-caption
 					h3 Title
 					p Subtitle
 		a(class='carousel-control-prev' href='#carousel' role='button' data-slide='prev')
@@ -28,3 +28,9 @@ block content
 		a(class='carousel-control-next' href='#carousel' role='button' data-slide='next')
 			span(class="carousel-control-next-icon" aria-hidden="true")
 			span(class="sr-only")	Næste
+	#headline
+		p.col-md-8.offset-md-2.text-justify#headline-text Creative Europe er et EU-støtte program, der har til formål at bevare og udvikle den kulturelle og sproglige mangfoldighed i Europa og styrke de kulturelle og kreative sektorers konkurrenceevne. ”EU-programmet retter sig mod en bred vifte af kunstnere og aktører inden for de kulturelle og audiovisuelle sektorer, herunder blandt andre museer, biblioteker, teatre, musikhuse, filmproducenter, filmfestivaler og filmselskaber.	
+	row
+		img.img-responsive#signature-img(src='/images/index-signature.png')
+		div.carousel-caption.signature-carousel-caption
+			h1 AKTUELLE DEADLINES

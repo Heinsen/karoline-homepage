@@ -2,7 +2,7 @@
   padding-top: 120px;
 }
 .navbar-logo {
-  width: 130px;
+  width: 100px;
 }
 .navbar {
   background-color: #fff;
@@ -17,7 +17,7 @@
 .nav-item.active {
   color: #039;
 }
-.navbar-fixed-bottom {
+.navbar-bot {
   min-height: 170px;
   padding: 30px;
   color: #fff;
@@ -34,19 +34,19 @@
 .footer-input {
   color: #000;
 }
-.footer-social {
-  padding-top: 15px;
-}
 .footer-social-icon {
   width: 100%;
+  padding-top: 15px;
 }
 .footer-button {
   color: #000;
   background-color: #fff;
 }
+body {
+  background-color: #f7f7f7;
+}
 .carousel {
-  height: 600px;
-  margin-bottom: 100px;
+  max-height: 550px;
   overflow: hidden;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -56,18 +56,37 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
   width: 100%;
-  height: 500px;
 }
 .carousel-inner > .item > img {
   position: absolute;
   width: 100%;
 }
-@media (min-width: 768px) {
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
+.header-carousel-caption {
+  right: 1800px;
+  top: 80px;
+  bottom: auto;
+  font-size: 30px;
+  line-height: 1.4;
+}
+.carousel-indicators {
+  margin-bottom: 80px;
+}
+#headline {
+  min-height: 250px;
+  background-color: #fff;
+}
+#headline-text {
+  font-size: 17px;
+  min-height: 280px;
+  padding-top: 95px;
+  margin-bottom: 0px;
+}
+#signature-img {
+  width: 100%;
+  min-height: 150px;
+}
+.signature-carousel-caption {
+  width: 200px;
 }
 .black-color {
   color: #000;
