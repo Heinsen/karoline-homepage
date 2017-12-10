@@ -82,6 +82,9 @@ body {
   padding-top: 95px;
   margin-bottom: 0px;
 }
+.carousel-title {
+  width: 600px;
+}
 #signature-img {
   width: 100%;
   min-height: 150px;
