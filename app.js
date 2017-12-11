@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
+var about = require('./routes/about');
 var news = require('./routes/news');
 var article = require('./routes/article');
 var users = require('./routes/users');
@@ -27,6 +28,7 @@ app.use('/bootstrap', express.static(path.join(__dirname,'./node_modules/bootstr
 app.use('/jquery', express.static(path.join(__dirname,'./node_modules/jquery/dist/')));
 
 app.use('/', index);
+app.use('/about', about);
 app.use('/article', article);
 app.use('/news', news);
 app.use('/users', users);

@@ -43,7 +43,8 @@
   background-color: #fff;
 }
 body {
-  padding-top: 45px;
+  padding-top: 90px;
+  padding-bottom: 200px;
   background-color: #f7f7f7;
 }
 .carousel {
@@ -120,8 +121,6 @@ body {
 .news-partial-body {
   padding-top: 40px;
   padding-bottom: 40px;
-background-color
-  font-weight: 500;
 }
 .news-partial-headline {
   font-size: 30px;
@@ -144,6 +143,29 @@ background-color
   color: #999;
   margin-bottom: 15px;
   font-size: 14px;
+}
+#about-headline-text {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#about-headline {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 20px;
+  width: 600px;
+}
+#about-subtitle {
+  font-size: 17px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.about-iframe {
+  width: 100%;
+  min-height: 500px;
 }
 .black-color {
   color: #000;
